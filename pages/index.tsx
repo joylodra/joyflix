@@ -6,13 +6,13 @@ import { Movie } from '../typings';
 import Row from '../components/Row';
 
 interface Props {
-  netflixOriginals: Movie[]
-  trendingNow: Movie[]
-  topRated: Movie[]
-  actionMovies: Movie[]
-  comedyMovies: Movie[]
-  horrorMovies: Movie[]
-  romanceMovies: Movie[]
+  netflixOriginals: Movie[],
+  trendingNow: Movie[],
+  topRated: Movie[],
+  actionMovies: Movie[],
+  comedyMovies: Movie[],
+  horrorMovies: Movie[],
+  romanceMovies: Movie[],
   documentaries: Movie[]
 };
 
